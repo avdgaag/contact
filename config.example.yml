@@ -1,0 +1,14 @@
+targets:
+  some_kind_of_api_key:
+    to:             ''
+    return_url:     ''
+    body:           ''
+via:                'smtp'
+via_options:
+  address:          'smtp.yourserver.com'
+  port:             '25'
+  user_nam:         'user'
+  passwor:          'password'
+  authentication:   'plain'
+  domain:           'localhost.localdomain'
+
